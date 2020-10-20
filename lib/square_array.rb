@@ -5,8 +5,8 @@ def square_array(array)
   while i > 0 do
     i -= 1
     
-    new_array.push = array[i] ** 2
+    new_array[0] = array[i] ** 2
     
-    puts new_array
+    puts new_array[0]
   end
 end
