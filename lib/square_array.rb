@@ -5,7 +5,7 @@ def square_array(array)
     i -= 1
     
     array[i] = array[i] ** 2
-    
-    
-  endputs array[i]
+  end
+  
+  puts array
 end
